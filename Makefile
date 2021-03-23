@@ -1,4 +1,4 @@
 all    :; dapp build
 clean  :; dapp clean
 test   :; dapp test
-deploy :; dapp create VoteProxy
+deploy :; dapp create VaporVoteProxy
