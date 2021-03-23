@@ -4,13 +4,13 @@ import "ds-test/test.sol";
 import "ds-token/token.sol";
 import "ds-chief/chief.sol";
 
-import "./VoteProxy.sol";
+import "./VaporVoteProxy.sol";
 
 contract Voter {
     DSChief chief;
     DSToken gov;
     DSToken iou;
-    VoteProxy public proxy;
+    VaporVoteProxy public proxy;
 
     constructor(DSChief chief_, DSToken gov_, DSToken iou_) public {
         chief = chief_;
