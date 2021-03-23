@@ -4,7 +4,7 @@ pragma solidity ^0.4.24;
 import "ds-token/token.sol";
 import "ds-chief/chief.sol";
 
-contract VoteProxy {
+contract VaporVoteProxy {
     address public cold;
     address public hot;
     DSToken public gov;
